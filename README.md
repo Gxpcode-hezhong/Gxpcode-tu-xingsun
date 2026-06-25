@@ -38,7 +38,7 @@ pip install -r scripts/requirements.txt
 python scripts/setup.py
 ```
 
-`setup.py` 会检查 Python 依赖并下载 Playwright Chromium 浏览器（约 400 MB）。
+`setup.py` 会检查 Python 依赖并下载。
 
 ### 首次运行
 
