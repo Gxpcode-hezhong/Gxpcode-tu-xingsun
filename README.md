@@ -1,3 +1,4 @@
+[English](README_EN.md) | [中文](README.md)
 # GxpCode-Tu-Xingsun
 
 > 制药法规自动跟踪系统 — 扫描 · 比对 · 分析 · 报告
