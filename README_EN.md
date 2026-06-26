@@ -1,3 +1,4 @@
+[English](README_EN.md) | [中文](README.md)
 # Tu-Xingsun · GxpCode Regulatory Tracking Skill
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](CHANGELOG.md)
