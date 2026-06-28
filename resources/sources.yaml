@@ -1,130 +1,131 @@
-# GxpCode-制药法规跟踪 — 数据源配置
-#
-# type:
-#   web — 纯网页型，通过浏览器自动化读取
-#   rss — 订阅型，通过 feedparser 解析
-#
-# extract:
-#   date_pattern: 行模式(日期独立行) / 括号内(日期在标题后括号中)
-#   link_by:     title(标题即链接) / text:xxx(匹配特定文字找链接)
-
 sources:
-  # ===== CDE =====
-  - name: CDE-指导原则
-    type: web
-    url: https://www.cde.org.cn/zdyz/listpage/2853510d929253719601db17b8a9fd81
-    jurisdiction: CDE
-    extract:
-      date_pattern: 行模式
-      link_by: "text:【查看详情】"
-
-  - name: CDE-征求意见
-    type: web
-    url: https://www.cde.org.cn/zdyz/listpage/3c49fad55caad7a034c263cfc2b6eb9c
-    jurisdiction: CDE
-    extract:
-      date_pattern: 行模式
-      link_by: "text:【查看详情】"
-
-  # ===== NMPA（yaopin 目录：日期在标题末尾括号内）=====
-  - name: NMPA-药品监管动态
-    type: web
-    url: https://www.nmpa.gov.cn/yaopin/ypjgdt/index.html
-    jurisdiction: NMPA
-    extract:
-      date_pattern: 括号内
-      link_by: title
-
-  - name: NMPA-药品公告通告
-    type: web
-    url: https://www.nmpa.gov.cn/yaopin/ypggtg/index.html
-    jurisdiction: NMPA
-    extract:
-      date_pattern: 括号内
-      link_by: title
-
-  # ===== NMPA（xxgk/fgwj 目录：日期独立行，标题在上）=====
-  - name: NMPA-药品法规文件
-    type: web
-    url: https://www.nmpa.gov.cn/yaopin/ypfgwj/index.html
-    jurisdiction: NMPA
-    extract:
-      date_pattern: 括号内
-      link_by: title
-
-  - name: NMPA-药品综合监督检查
-    type: web
-    url: https://www.nmpa.gov.cn/yaopin/ypzhcjd/index.html
-    jurisdiction: NMPA
-    extract:
-      date_pattern: 括号内
-      link_by: title
-
-  - name: NMPA-法规文件总览
-    type: web
-    url: https://www.nmpa.gov.cn/xxgk/fgwj/index.html
-    jurisdiction: NMPA
-    extract:
-      date_pattern: 括号内
-      link_by: title
-
-  - name: NMPA-法律行政法规
-    type: web
-    url: https://www.nmpa.gov.cn/xxgk/fgwj/flxzhfg/index.html
-    jurisdiction: NMPA
-    extract:
-      date_pattern: 括号内
-      link_by: title
-
-  - name: NMPA-部门规章
-    type: web
-    url: https://www.nmpa.gov.cn/xxgk/fgwj/nbmgzh/index.html
-    jurisdiction: NMPA
-    extract:
-      date_pattern: 括号内
-      link_by: title
-
-  - name: NMPA-行政规范性文件
-    type: web
-    url: https://www.nmpa.gov.cn/xxgk/fgwj/xzhgfxwj/index.html
-    jurisdiction: NMPA
-    extract:
-      date_pattern: 括号内
-      link_by: title
-
-  - name: NMPA-工作文件
-    type: web
-    url: https://www.nmpa.gov.cn/xxgk/fgwj/gzwj/index.html
-    jurisdiction: NMPA
-    extract:
-      date_pattern: 括号内
-      link_by: title
-
-  - name: NMPA-其他文件
-    type: web
-    url: https://www.nmpa.gov.cn/xxgk/fgwj/qita/index.html
-    jurisdiction: NMPA
-    extract:
-      date_pattern: 括号内
-      link_by: title
-
-  # ===== PIC/S =====
-  - name: PIC/S-Publications
-    type: web
-    url: https://picscheme.org/en/publications?tri=date
-    jurisdiction: PIC/S
-    extract:
-      date_pattern: data-order
-      link_by: title
-
-  # ===== FDA =====
-  - name: FDA-Drug-Guidances
-    type: rss
-    url: https://www.fda.gov/about-fda/drug-guidances/rss.xml
-    jurisdiction: FDA
-
-  # ===== EMA =====
-  - name: EMA-News
-    type: rss
-    url: https://www.ema.europa.eu/en/news-events/rss.xml
-    jurisdiction: EMA
+- name: CDE-指导原则
+  enabled: true
+  type: web
+  url: https://www.cde.org.cn/zdyz/listpage/2853510d929253719601db17b8a9fd81
+  jurisdiction: CDE
+  parser: cde_list
+- name: CDE-征求意见
+  type: web
+  url: https://www.cde.org.cn/zdyz/listpage/3c49fad55caad7a034c263cfc2b6eb9c
+  jurisdiction: CDE
+  enabled: true
+  parser: cde_list
+- name: CDE-政策法规
+  enabled: true
+  type: web
+  url: https://www.cde.org.cn/main/policy/listpage/9f9c74c73e0f8f56a8bfbc646055026d
+  jurisdiction: CDE
+  parser: cde_list
+- name: CDE-政策解读
+  enabled: true
+  type: web
+  url: https://www.cde.org.cn/main/policy/listpage/f1b85f03689d513e5cce1c6a3185af25
+  jurisdiction: CDE
+  parser: cde_list
+- name: CDE-要闻导读
+  enabled: true
+  type: web
+  url: https://www.cde.org.cn/main/news/listpage/1e0a362d64015ebcbf32d6949acbba11
+  jurisdiction: CDE
+  parser: cde_list
+- name: CDE-工作动态
+  enabled: true
+  type: web
+  url: https://www.cde.org.cn/main/news/listpage/3cc45b396497b598341ce3af000490e5
+  jurisdiction: CDE
+  parser: cde_list
+- name: NMPA-药品监管动态
+  type: web
+  url: https://www.nmpa.gov.cn/yaopin/ypjgdt/index.html
+  jurisdiction: NMPA
+  enabled: true
+  parser: nmpa_list
+- name: NMPA-药品公告通告
+  type: web
+  url: https://www.nmpa.gov.cn/yaopin/ypggtg/index.html
+  jurisdiction: NMPA
+  enabled: true
+  parser: nmpa_list
+- name: NMPA-药品法规文件
+  type: web
+  url: https://www.nmpa.gov.cn/yaopin/ypfgwj/index.html
+  jurisdiction: NMPA
+  enabled: true
+  parser: nmpa_list
+- name: NMPA-药品政策解读
+  type: web
+  url: https://www.nmpa.gov.cn/yaopin/ypzhcjd/index.html
+  jurisdiction: NMPA
+  enabled: true
+  parser: nmpa_list
+- name: NMPA-法规文件总览
+  type: web
+  url: https://www.nmpa.gov.cn/xxgk/fgwj/index.html
+  jurisdiction: NMPA
+  enabled: true
+  parser: nmpa_list
+- name: NMPA-法律行政法规
+  type: web
+  url: https://www.nmpa.gov.cn/xxgk/fgwj/flxzhfg/index.html
+  jurisdiction: NMPA
+  enabled: true
+  parser: nmpa_list
+- name: NMPA-部门规章
+  type: web
+  url: https://www.nmpa.gov.cn/xxgk/fgwj/nbmgzh/index.html
+  jurisdiction: NMPA
+  enabled: true
+  parser: nmpa_list
+- name: NMPA-行政规范性文件
+  type: web
+  url: https://www.nmpa.gov.cn/xxgk/fgwj/xzhgfxwj/index.html
+  jurisdiction: NMPA
+  enabled: true
+  parser: nmpa_list
+- name: NMPA-工作文件
+  type: web
+  url: https://www.nmpa.gov.cn/xxgk/fgwj/gzwj/index.html
+  jurisdiction: NMPA
+  enabled: true
+  parser: nmpa_list
+- name: NMPA-其他文件
+  type: web
+  url: https://www.nmpa.gov.cn/xxgk/fgwj/qita/index.html
+  jurisdiction: NMPA
+  enabled: true
+  parser: nmpa_list
+- name: PIC/S-Publications
+  type: web
+  url: https://picscheme.org/en/publications?tri=date
+  jurisdiction: PIC/S
+  enabled: true
+  parser: pics_list
+- name: JSCDI-药品类政策法规
+  type: web
+  url: http://www.jscdi.org.cn/hczx/web/column/ypl/1.html
+  jurisdiction: 江苏
+  enabled: true
+  parser: jscdi_list
+- name: FDA-Guidance-Snapshot
+  enabled: true
+  type: web
+  url: https://www.fda.gov/drugs/guidances-drugs/guidance-snapshot-pilot
+  jurisdiction: FDA
+  parser: fda_table
+- name: FDA-483
+  enabled: true
+  type: web
+  url: https://www.fda.gov/about-fda/office-inspections-and-investigations/oii-foia-electronic-reading-room
+  jurisdiction: FDA
+  parser: fda_foia
+- name: FDA-Drug-Guidances
+  type: rss
+  url: https://www.fda.gov/about-fda/drug-guidances/rss.xml
+  jurisdiction: FDA
+  enabled: true
+- name: EMA-News
+  type: rss
+  url: https://www.ema.europa.eu/en/news-events/rss.xml
+  jurisdiction: EMA
+  enabled: true

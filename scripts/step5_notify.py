@@ -25,12 +25,20 @@ def _extract_number(title: str) -> str:
 
 
 def _load_s4(gxpcode: str) -> list:
+    """读取 S4 数据，按 URL 去重（同一法规多源收录时仅保留首次出现）"""
     s4_dir = os.path.join(gxpcode, "s4")
+    seen_urls = set()
     all_items = []
     for fname in sorted(os.listdir(s4_dir)):
         if fname.endswith(".json"):
             with open(os.path.join(s4_dir, fname), "r", encoding="utf-8") as f:
-                all_items.extend(json.load(f))
+                for item in json.load(f):
+                    url = item.get("url", "")
+                    if url and url in seen_urls:
+                        continue
+                    if url:
+                        seen_urls.add(url)
+                    all_items.append(item)
     return all_items
 
 
@@ -144,8 +152,10 @@ def _update_history(items: list, gxpcode: str):
     for item in items:
         src = item.get("source", "")
         history.setdefault(src, [])
-        title = item["title"]
-        url = item["url"]
+        title = item.get("title", "")
+        url = item.get("url", "")
+        if not title or not url:
+            continue
         exist = any(r.get("title") == title and r.get("url") == url for r in history[src])
         if exist:
             continue

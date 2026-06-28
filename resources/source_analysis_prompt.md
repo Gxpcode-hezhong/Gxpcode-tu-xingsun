@@ -1,31 +1,20 @@
 # GxpCode-制药法规跟踪 — 新源分析 Prompt
 
-你是一个网页结构分析器。分析用户提供的法规源 URL 的完整 HTML，判断页面结构，输出 sources.yaml 配置。
+分析用户提供的法规源 URL，确定最佳 parser 并输出 sources.yaml 配置。
 
 ## 执行步骤
 
-1. 调用 `stepA_analyze.py` 打开 URL 并渲染，自动保存 HTML 到 `gxpcode_data/stepA_{date}_{num}.html`
-2. Agent 读取该 HTML，逐行分析：哪些是导航？哪些是法规条目？标题在哪？链接在哪？日期在哪？
+1. 调用 `stepA_match.py <URL>` → 返回 `{matched: true/false, parser: "...", ...}`
+2. `matched: true` → 直接用该 parser，跳到步骤 4
+3. `matched: false` → Agent 分析页面 HTML → 新建 parser
+4. 输出 `sources.yaml` 新增条目并写入文件
 
-## 判断规则
+## 新建 parser
 
-### link_by（必填 ✅）
-
-标题和链接的对应关系：
-
-| 页面特征 | 取值 |
-|------|------|
-| 标题本身在 `<a>` 标签里 | `title` |
-| 标题和链接分离，链接文字固定（如"查看详情"） | `text:固定文字` |
-
-### date_pattern（选填 ❌）
-
-| 页面特征 | 取值 |
-|------|------|
-| 日期独立一行，标题在下行 | `行模式` |
-| 日期在标题行末尾括号内 | `括号内` |
-| 日期在 HTML 属性里（如 `data-order`） | `data-order` |
-| 列表页无日期 | 不填（S3 详情页补） |
+1. 调用 `stepA_analyze.py` 打开 URL 渲染页面
+2. 分析 DOM 结构和 innerText 格式
+3. 创建 `scripts/parsers/{name}.py`，实现 `parse(page, source_name, jurisdiction)` 方法
+4. 返回 items 列表：`[{source, jurisdiction, title, url, date, summary, source_type: "web", confidence: "high"}]`
 
 ## 约束
 
@@ -35,10 +24,9 @@
 
 ```yaml
 - name: {机构}-{栏目名}
+  enabled: true
   type: web
   url: {URL}
   jurisdiction: {管辖区域}
-  extract:
-    link_by: {title 或 text:固定文字}
-    date_pattern: {行模式 / 括号内 / data-order}  # 列表页无日期则不写
+  parser: {parser_name}
 ```

@@ -54,6 +54,9 @@ def run(sources_path: str, gxpcode: str):
     web_sources = []
 
     for src in sources:
+        if not src.get("enabled", True):
+            logger.info(f"RSS {src['name']}: disabled, skip")
+            continue
         stype = src.get("type", "")
         if stype == "rss":
             items = _parse_feed(src)
@@ -66,3 +69,11 @@ def run(sources_path: str, gxpcode: str):
 
     logger.info(f"Web sources pending: {len(web_sources)}")
     return web_sources
+
+
+if __name__ == "__main__":
+    gxpcode = sys.argv[1] if len(sys.argv) > 1 else "gxpcode_data"
+    skill_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    sources_path = os.path.join(skill_dir, "resources", "sources.yaml")
+    web = run(sources_path, gxpcode)
+    print(f"RSS done. Web sources pending: {len(web)}")

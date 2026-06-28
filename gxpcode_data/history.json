@@ -48,6 +48,20 @@
       "date": "2026.06-24",
       "first_seen": "2026-06-25",
       "last_updated": "2026-06-25"
+    },
+    {
+      "title": "关于公开征求《以患者为中心创新药研发统计方法学技术指导原则（征求意见稿）》意见的通知",
+      "url": "https://www.cde.org.cn/main/news/viewInfoCommon/6e6bc3c68dfeccf6b17165e0835d7cfa",
+      "date": "2026.06-25",
+      "first_seen": "2026-06-27",
+      "last_updated": "2026-06-27"
+    },
+    {
+      "title": "关于公开征求《阻塞性睡眠呼吸暂停治疗药物临床试验技术指导原则（征求意见稿）》意见的通知",
+      "url": "https://www.cde.org.cn/main/news/viewInfoCommon/4a8d063402ba2e65fd669f2ae1d540f8",
+      "date": "2026.06-12",
+      "first_seen": "2026-06-27",
+      "last_updated": "2026-06-27"
     }
   ],
   "CDE-指导原则": [
@@ -113,6 +127,13 @@
       "date": "2026.06-01",
       "first_seen": "2026-06-25",
       "last_updated": "2026-06-25"
+    },
+    {
+      "title": "国家药监局药审中心关于发布《关于开发适宜药品包装规格的指导原则》的通告（2026年第37号）",
+      "url": "https://www.cde.org.cn/main/news/viewInfoCommon/e9ea51cbefc600990adcf2d786ee5e51",
+      "date": "2026.06-01",
+      "first_seen": "2026-06-27",
+      "last_updated": "2026-06-27"
     }
   ],
   "NMPA-其他文件": [
@@ -241,6 +262,13 @@
       "date": "2026-04-30",
       "first_seen": "2026-06-25",
       "last_updated": "2026-06-25"
+    },
+    {
+      "title": "国务院办公厅关于印发《深化医药卫生体制改革2024年重点工作任务》的通知",
+      "url": "https://www.gov.cn/zhengce/content/202406/content_6955904.htm",
+      "date": "2024-06-07",
+      "first_seen": "2026-06-27",
+      "last_updated": "2026-06-27"
     }
   ],
   "NMPA-工作文件": [
@@ -376,6 +404,20 @@
       "date": "2026-05-27",
       "first_seen": "2026-06-25",
       "last_updated": "2026-06-25"
+    },
+    {
+      "title": "2025年度药品审评报告",
+      "url": "https://www.cde.org.cn/main/news/viewInfoCommon/b93aba16ec47467317057dca4aac8437",
+      "date": "2026-05-13",
+      "first_seen": "2026-06-27",
+      "last_updated": "2026-06-27"
+    },
+    {
+      "title": "关于中药品种保护审评相关工作调整有关事宜的通知（药审业〔2026〕250号）",
+      "url": "https://www.nmpa.gov.cn/xxgk/fgwj/gzwj/gzwjyp/20260625163342127.html",
+      "date": "2026-06-25",
+      "first_seen": "2026-06-27",
+      "last_updated": "2026-06-27"
     }
   ],
   "NMPA-法律行政法规": [
@@ -490,6 +532,13 @@
       "date": "2026-01-16",
       "first_seen": "2026-06-25",
       "last_updated": "2026-06-25"
+    },
+    {
+      "title": "医疗器械监督管理条例",
+      "url": "https://www.nmpa.gov.cn/xxgk/fgwj/flxzhfg/20250416172904188.html",
+      "date": "2024-12-06",
+      "first_seen": "2026-06-27",
+      "last_updated": "2026-06-27"
     }
   ],
   "NMPA-法规文件总览": [
@@ -625,6 +674,27 @@
       "date": "2026-06-08",
       "first_seen": "2026-06-25",
       "last_updated": "2026-06-25"
+    },
+    {
+      "title": "国家药品不良反应监测年度报告（2025年）",
+      "url": "https://www.cdr-adr.org.cn/center_news/202604/t20260427_51496.html",
+      "date": "2026-04-30",
+      "first_seen": "2026-06-27",
+      "last_updated": "2026-06-27"
+    },
+    {
+      "title": "国家药监局关于发布化妆品新原料注册备案及资料管理规定的公告（2026年第59号）",
+      "url": "https://www.nmpa.gov.cn/xxgk/fgwj/xzhgfxwj/20260626114523130.html",
+      "date": "2026-06-26",
+      "first_seen": "2026-06-27",
+      "last_updated": "2026-06-27"
+    },
+    {
+      "title": "关于中药品种保护审评相关工作调整有关事宜的通知（药审业〔2026〕250号）",
+      "url": "https://www.nmpa.gov.cn/xxgk/fgwj/gzwj/gzwjyp/20260625163342127.html",
+      "date": "2026-06-25",
+      "first_seen": "2026-06-27",
+      "last_updated": "2026-06-27"
     }
   ],
   "NMPA-药品公告通告": [
@@ -760,6 +830,13 @@
       "date": "2026-06-24",
       "first_seen": "2026-06-25",
       "last_updated": "2026-06-25"
+    },
+    {
+      "title": "国家药监局 国家卫生健康委 国家中医药局 国家疾控局关于发布药物临床试验质量管理规范的公告（2026年第50号）",
+      "url": "https://www.nmpa.gov.cn/xxgk/ggtg/ypggtg/ypqtggtg/20260608103856150.html",
+      "date": "2026-06-08",
+      "first_seen": "2026-06-27",
+      "last_updated": "2026-06-27"
     }
   ],
   "NMPA-药品法规文件": [
@@ -895,6 +972,20 @@
       "date": "2026-05-27",
       "first_seen": "2026-06-25",
       "last_updated": "2026-06-25"
+    },
+    {
+      "title": "2025年度药品审评报告",
+      "url": "https://www.cde.org.cn/main/news/viewInfoCommon/b93aba16ec47467317057dca4aac8437",
+      "date": "2026-05-13",
+      "first_seen": "2026-06-27",
+      "last_updated": "2026-06-27"
+    },
+    {
+      "title": "关于中药品种保护审评相关工作调整有关事宜的通知（药审业〔2026〕250号）",
+      "url": "https://www.nmpa.gov.cn/xxgk/fgwj/gzwj/gzwjyp/20260625163342127.html",
+      "date": "2026-06-25",
+      "first_seen": "2026-06-27",
+      "last_updated": "2026-06-27"
     }
   ],
   "NMPA-药品监管动态": [
@@ -1030,141 +1121,20 @@
       "date": "2026-06-24",
       "first_seen": "2026-06-25",
       "last_updated": "2026-06-25"
-    }
-  ],
-  "NMPA-药品综合监督检查": [
-    {
-      "title": "《药品试验数据保护实施办法》政策解读",
-      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/zhcjdyp/20260515145432101.html",
-      "date": "2026-05-15",
-      "first_seen": "2026-06-25",
-      "last_updated": "2026-06-25"
     },
     {
-      "title": "图解海报 | 2025年度药品审评报告（二）",
-      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/tjzhc/tjzhcyp/20260514085608132.html",
-      "date": "2026-05-14",
-      "first_seen": "2026-06-25",
-      "last_updated": "2026-06-25"
+      "title": "国家药监局举办疫苗监管质量管理体系建设工作交流会议",
+      "url": "https://www.nmpa.gov.cn/yaowen/ypjgyw/hyxx/yphyxx/20260625113157189.html",
+      "date": "2026-06-25",
+      "first_seen": "2026-06-27",
+      "last_updated": "2026-06-27"
     },
     {
-      "title": "图解海报 | 2025年度药品审评报告（一）",
-      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/tjzhc/tjzhcyp/20260513160317125.html",
-      "date": "2026-05-13",
-      "first_seen": "2026-06-25",
-      "last_updated": "2026-06-25"
-    },
-    {
-      "title": "《医药代表管理办法》政策解读",
-      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/zhcjdyp/20260507174122178.html",
-      "date": "2026-05-07",
-      "first_seen": "2026-06-25",
-      "last_updated": "2026-06-25"
-    },
-    {
-      "title": "《药品现代物流规范化建设指导意见》政策问答",
-      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/zhcjdyp/20260325162825181.html",
-      "date": "2026-03-25",
-      "first_seen": "2026-06-25",
-      "last_updated": "2026-06-25"
-    },
-    {
-      "title": "《国家药监局关于加强药品受托生产监督管理工作的公告》政策解读",
-      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/zhcjdyp/20260106115742193.html",
-      "date": "2026-01-06",
-      "first_seen": "2026-06-25",
-      "last_updated": "2026-06-25"
-    },
-    {
-      "title": "《药品生产企业出口药品检查和出口证明管理规定》政策解读",
-      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/zhcjdyp/20251121163958125.html",
-      "date": "2025-11-21",
-      "first_seen": "2026-06-25",
-      "last_updated": "2026-06-25"
-    },
-    {
-      "title": "《国家药监局关于境外已上市药品获批前商业规模批次产品进口有关事宜的公告》政策解读",
-      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/zhcjdyp/20250930090850112.html",
-      "date": "2025-09-30",
-      "first_seen": "2026-06-25",
-      "last_updated": "2026-06-25"
-    },
-    {
-      "title": "图解海报 | 《中药生产监督管理专门规定》发布（七）",
-      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/tjzhc/tjzhcyp/20250922083812116.html",
-      "date": "2025-09-22",
-      "first_seen": "2026-06-25",
-      "last_updated": "2026-06-25"
-    },
-    {
-      "title": "图解海报 | 《中药生产监督管理专门规定》发布（六）",
-      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/tjzhc/tjzhcyp/20250919144642183.html",
-      "date": "2025-09-21",
-      "first_seen": "2026-06-25",
-      "last_updated": "2026-06-25"
-    },
-    {
-      "title": "图解海报 | 《中药生产监督管理专门规定》发布（五）",
-      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/tjzhc/tjzhcyp/20250919142953144.html",
-      "date": "2025-09-20",
-      "first_seen": "2026-06-25",
-      "last_updated": "2026-06-25"
-    },
-    {
-      "title": "图解海报 | 《中药生产监督管理专门规定》发布（四）",
-      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/tjzhc/tjzhcyp/20250919075102148.html",
-      "date": "2025-09-19",
-      "first_seen": "2026-06-25",
-      "last_updated": "2026-06-25"
-    },
-    {
-      "title": "图解海报 | 《中药生产监督管理专门规定》发布（三）",
-      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/tjzhc/tjzhcyp/20250918085226157.html",
-      "date": "2025-09-18",
-      "first_seen": "2026-06-25",
-      "last_updated": "2026-06-25"
-    },
-    {
-      "title": "图解海报 | 《中药生产监督管理专门规定》发布（二）",
-      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/tjzhc/tjzhcyp/20250917093153110.html",
-      "date": "2025-09-17",
-      "first_seen": "2026-06-25",
-      "last_updated": "2026-06-25"
-    },
-    {
-      "title": "图解海报 | 《中药生产监督管理专门规定》发布（一）",
-      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/tjzhc/tjzhcyp/20250916114638188.html",
-      "date": "2025-09-16",
-      "first_seen": "2026-06-25",
-      "last_updated": "2026-06-25"
-    },
-    {
-      "title": "《中药生产监督管理专门规定》 政策解读",
-      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/zhcjdyp/20250908141627198.html",
-      "date": "2025-09-08",
-      "first_seen": "2026-06-25",
-      "last_updated": "2026-06-25"
-    },
-    {
-      "title": "《麻醉药品和精神药品实验研究管理规定》政策解读",
-      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/zhcjdyp/20250530115330110.html",
-      "date": "2025-05-30",
-      "first_seen": "2026-06-25",
-      "last_updated": "2026-06-25"
-    },
-    {
-      "title": "图解海报 | 数说2024年药品审评（二）",
-      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/tjzhc/tjzhcyp/20250416082036162.html",
-      "date": "2025-04-16",
-      "first_seen": "2026-06-25",
-      "last_updated": "2026-06-25"
-    },
-    {
-      "title": "《处方药网络零售合规指南》政策解读",
-      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/zhcjdyp/20260525142837100.html",
-      "date": "2026-05-25",
-      "first_seen": "2026-06-25",
-      "last_updated": "2026-06-25"
+      "title": "杨胜赴福建调研两岸医药融合发展政策",
+      "url": "https://www.nmpa.gov.cn/yaowen/ypjgyw/ypyw/20260624105255108.html",
+      "date": "2026-06-24",
+      "first_seen": "2026-06-27",
+      "last_updated": "2026-06-27"
     }
   ],
   "NMPA-行政规范性文件": [
@@ -1300,6 +1270,20 @@
       "date": "2026-06-08",
       "first_seen": "2026-06-25",
       "last_updated": "2026-06-25"
+    },
+    {
+      "title": "国家药监局关于发布化妆品新原料注册备案及资料管理规定的公告（2026年第59号）",
+      "url": "https://www.nmpa.gov.cn/xxgk/fgwj/xzhgfxwj/20260626114523130.html",
+      "date": "2026-06-26",
+      "first_seen": "2026-06-27",
+      "last_updated": "2026-06-27"
+    },
+    {
+      "title": "国家药监局关于医疗器械分类调整有关工作的公告（2026年第52号）",
+      "url": "https://www.nmpa.gov.cn/xxgk/fgwj/xzhgfxwj/20260601172053198.html",
+      "date": "2026-06-01",
+      "first_seen": "2026-06-27",
+      "last_updated": "2026-06-27"
     }
   ],
   "NMPA-部门规章": [
@@ -1414,6 +1398,13 @@
       "date": "2026-01-16",
       "first_seen": "2026-06-25",
       "last_updated": "2026-06-25"
+    },
+    {
+      "title": "药品经营和使用质量监督管理办法",
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_db526cfcd7204874b8b23297fa3b02dc.html",
+      "date": "2023-10-13",
+      "first_seen": "2026-06-27",
+      "last_updated": "2026-06-27"
     }
   ],
   "PIC/S-Publications": [
@@ -1507,6 +1498,148 @@
       "date": "2023-10-25",
       "first_seen": "2026-06-25",
       "last_updated": "2026-06-25"
+    }
+  ],
+  "NMPA-药品政策解读": [
+    {
+      "title": "《药品试验数据保护实施办法》政策解读",
+      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/zhcjdyp/20260515145432101.html",
+      "date": "2026-05-15",
+      "first_seen": "2026-06-25",
+      "last_updated": "2026-06-25"
+    },
+    {
+      "title": "图解海报 | 2025年度药品审评报告（二）",
+      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/tjzhc/tjzhcyp/20260514085608132.html",
+      "date": "2026-05-14",
+      "first_seen": "2026-06-25",
+      "last_updated": "2026-06-25"
+    },
+    {
+      "title": "图解海报 | 2025年度药品审评报告（一）",
+      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/tjzhc/tjzhcyp/20260513160317125.html",
+      "date": "2026-05-13",
+      "first_seen": "2026-06-25",
+      "last_updated": "2026-06-25"
+    },
+    {
+      "title": "《医药代表管理办法》政策解读",
+      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/zhcjdyp/20260507174122178.html",
+      "date": "2026-05-07",
+      "first_seen": "2026-06-25",
+      "last_updated": "2026-06-25"
+    },
+    {
+      "title": "《药品现代物流规范化建设指导意见》政策问答",
+      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/zhcjdyp/20260325162825181.html",
+      "date": "2026-03-25",
+      "first_seen": "2026-06-25",
+      "last_updated": "2026-06-25"
+    },
+    {
+      "title": "《国家药监局关于加强药品受托生产监督管理工作的公告》政策解读",
+      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/zhcjdyp/20260106115742193.html",
+      "date": "2026-01-06",
+      "first_seen": "2026-06-25",
+      "last_updated": "2026-06-25"
+    },
+    {
+      "title": "《药品生产企业出口药品检查和出口证明管理规定》政策解读",
+      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/zhcjdyp/20251121163958125.html",
+      "date": "2025-11-21",
+      "first_seen": "2026-06-25",
+      "last_updated": "2026-06-25"
+    },
+    {
+      "title": "《国家药监局关于境外已上市药品获批前商业规模批次产品进口有关事宜的公告》政策解读",
+      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/zhcjdyp/20250930090850112.html",
+      "date": "2025-09-30",
+      "first_seen": "2026-06-25",
+      "last_updated": "2026-06-25"
+    },
+    {
+      "title": "图解海报 | 《中药生产监督管理专门规定》发布（七）",
+      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/tjzhc/tjzhcyp/20250922083812116.html",
+      "date": "2025-09-22",
+      "first_seen": "2026-06-25",
+      "last_updated": "2026-06-25"
+    },
+    {
+      "title": "图解海报 | 《中药生产监督管理专门规定》发布（六）",
+      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/tjzhc/tjzhcyp/20250919144642183.html",
+      "date": "2025-09-21",
+      "first_seen": "2026-06-25",
+      "last_updated": "2026-06-25"
+    },
+    {
+      "title": "图解海报 | 《中药生产监督管理专门规定》发布（五）",
+      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/tjzhc/tjzhcyp/20250919142953144.html",
+      "date": "2025-09-20",
+      "first_seen": "2026-06-25",
+      "last_updated": "2026-06-25"
+    },
+    {
+      "title": "图解海报 | 《中药生产监督管理专门规定》发布（四）",
+      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/tjzhc/tjzhcyp/20250919075102148.html",
+      "date": "2025-09-19",
+      "first_seen": "2026-06-25",
+      "last_updated": "2026-06-25"
+    },
+    {
+      "title": "图解海报 | 《中药生产监督管理专门规定》发布（三）",
+      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/tjzhc/tjzhcyp/20250918085226157.html",
+      "date": "2025-09-18",
+      "first_seen": "2026-06-25",
+      "last_updated": "2026-06-25"
+    },
+    {
+      "title": "图解海报 | 《中药生产监督管理专门规定》发布（二）",
+      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/tjzhc/tjzhcyp/20250917093153110.html",
+      "date": "2025-09-17",
+      "first_seen": "2026-06-25",
+      "last_updated": "2026-06-25"
+    },
+    {
+      "title": "图解海报 | 《中药生产监督管理专门规定》发布（一）",
+      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/tjzhc/tjzhcyp/20250916114638188.html",
+      "date": "2025-09-16",
+      "first_seen": "2026-06-25",
+      "last_updated": "2026-06-25"
+    },
+    {
+      "title": "《中药生产监督管理专门规定》 政策解读",
+      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/zhcjdyp/20250908141627198.html",
+      "date": "2025-09-08",
+      "first_seen": "2026-06-25",
+      "last_updated": "2026-06-25"
+    },
+    {
+      "title": "《麻醉药品和精神药品实验研究管理规定》政策解读",
+      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/zhcjdyp/20250530115330110.html",
+      "date": "2025-05-30",
+      "first_seen": "2026-06-25",
+      "last_updated": "2026-06-25"
+    },
+    {
+      "title": "图解海报 | 数说2024年药品审评（二）",
+      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/tjzhc/tjzhcyp/20250416082036162.html",
+      "date": "2025-04-16",
+      "first_seen": "2026-06-25",
+      "last_updated": "2026-06-25"
+    },
+    {
+      "title": "《处方药网络零售合规指南》政策解读",
+      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/zhcjdyp/20260525142837100.html",
+      "date": "2026-05-25",
+      "first_seen": "2026-06-25",
+      "last_updated": "2026-06-25"
+    },
+    {
+      "title": "图解海报 | 《药品试验数据保护实施办法》政策图解",
+      "url": "https://www.nmpa.gov.cn/xxgk/zhcjd/tjzhc/tjzhcyp/20260515160027184.html",
+      "date": "2026-05-15",
+      "first_seen": "2026-06-27",
+      "last_updated": "2026-06-27"
     }
   ]
 }
