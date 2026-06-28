@@ -57,7 +57,11 @@ def run(sources_path: str, gxpcode: str):
                 time.sleep(5)
 
                 parse_fn = _get_parser(parser_name)
-                items = parse_fn(page, name, jurisdiction)
+                # 传递 extract 配置给支持该参数的 parser（如 chp_standard 需要 tab 名）
+                try:
+                    items = parse_fn(page, name, jurisdiction, extract=src.get("extract"))
+                except TypeError:
+                    items = parse_fn(page, name, jurisdiction)
 
                 path = os.path.join(s1_dir, f"s1_{name.replace('/', '_')}.json")
                 with open(path, "w", encoding="utf-8") as f:

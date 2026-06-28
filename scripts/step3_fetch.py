@@ -138,7 +138,12 @@ def run(gxpcode: str):
         print("s2/ is empty, skip S3")
         return
 
-    pdf_dir = os.path.join(gxpcode, "outputs", "pdfs")
+    # PDF 下载到工作空间（第二参数），未指定则落在 gxpcode_data 外的工作目录
+    if len(sys.argv) > 2:
+        output_root = sys.argv[2]
+    else:
+        output_root = os.getcwd()
+    pdf_dir = os.path.join(output_root, "gxpcode_pdfs")
     os.makedirs(pdf_dir, exist_ok=True)
 
     # 按域名分组并发

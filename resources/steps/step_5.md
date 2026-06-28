@@ -1,8 +1,9 @@
 # Step 5 — 通知
 
 ```bash
-python "${SKILL_DIR}/scripts/step5_notify.py" gxpcode_data
+python "${SKILL_DIR}/scripts/step5_notify.py" gxpcode_data [output_dir]
 ```
+- `output_dir` 可选（第二参数），报告输出到此目录；不传则用当前工作目录
 
 ## 目的
 
@@ -17,8 +18,8 @@ python "${SKILL_DIR}/scripts/step5_notify.py" gxpcode_data
 
 ## 输出
 
-- `gxpcode_data/s5_report_{date}.md`：Markdown 报告
-- `gxpcode_data/s5_report_{date}.pdf`：PDF 报告（微软雅黑，A4）
+- `{output_dir}/s5_report_{date}.md`：Markdown 报告
+- `{output_dir}/s5_report_{date}.pdf`：PDF 报告（微软雅黑，A4）
 - `{SKILL_DIR}/gxpcode_data/history.json`：更新历史记录（按 source 分组，title+url 去重）
 
 ## 报告结构

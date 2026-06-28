@@ -175,7 +175,13 @@ def run(gxpcode: str):
     product_rules = config.get("product_types", [])
     md = _build_report(items, product_rules)
     today = datetime.now().strftime("%Y-%m-%d")
-    report_path = os.path.join(gxpcode, f"s5_report_{today}.md")
+    # 报告输出到工作空间（第二参数），未指定则落在 gxpcode_data
+    if len(sys.argv) > 2:
+        output_dir = sys.argv[2]
+    else:
+        output_dir = os.getcwd()
+    os.makedirs(output_dir, exist_ok=True)
+    report_path = os.path.join(output_dir, f"s5_report_{today}.md")
     with open(report_path, "w", encoding="utf-8") as f:
         f.write(md)
     _update_history(items, gxpcode)
@@ -207,7 +213,7 @@ h2:nth-of-type(7){{background:#27ae60}}  /* 低适用 */
 </style></head><body>
 {markdown.markdown(md, extensions=['tables','fenced_code'])}
 </body></html>"""
-    pdf_path = os.path.join(gxpcode, f"s5_report_{today}.pdf")
+    pdf_path = os.path.join(output_dir, f"s5_report_{today}.pdf")
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()

@@ -101,11 +101,135 @@ sources:
   jurisdiction: PIC/S
   enabled: true
   parser: pics_list
+- name: CFDI-通知公告
+  type: web
+  url: https://www.cfdi.org.cn/cfdi/index?module=A001&nty=D06
+  jurisdiction: CFDI
+  enabled: true
+  parser: cfdi_list
+- name: CFDI-药品政策法规
+  type: web
+  url: https://www.cfdi.org.cn/cfdi/index?module=A001&m1=11&m2=&nty=C03&tcode=C03B014
+  jurisdiction: CFDI
+  enabled: true
+  parser: cfdi_list
+- name: CFDI-药品检查专栏
+  type: web
+  url: https://www.cfdi.org.cn/cfdi/index?module=A001&nty=A27
+  jurisdiction: CFDI
+  enabled: true
+  parser: cfdi_list
+- name: NIFDC-标准物质通知公告
+  type: web
+  url: https://www.nifdc.org.cn/nifdc/bshff/bzhwzh/bzwztzgg/index.html
+  jurisdiction: NIFDC
+  enabled: true
+  parser: nifdc_list
+- name: CHP-中药标准公示
+  type: web
+  url: https://www.chp.org.cn/#/business/standard
+  jurisdiction: 药典委
+  enabled: true
+  parser: chp_standard
+  extract:
+    tab: 中药
+- name: CHP-化学药标准公示
+  type: web
+  url: https://www.chp.org.cn/#/business/standard
+  jurisdiction: 药典委
+  enabled: true
+  parser: chp_standard
+  extract:
+    tab: 化学药
+- name: CHP-生物制品标准公示
+  type: web
+  url: https://www.chp.org.cn/#/business/standard
+  jurisdiction: 药典委
+  enabled: true
+  parser: chp_standard
+  extract:
+    tab: 生物制品
+- name: CHP-通则辅料包材标准公示
+  type: web
+  url: https://www.chp.org.cn/#/business/standard
+  jurisdiction: 药典委
+  enabled: true
+  parser: chp_standard
+  extract:
+    tab: 通则辅料包材
+- name: CHP-中药配方颗粒标准公示
+  type: web
+  url: https://www.chp.org.cn/#/business/standard
+  jurisdiction: 药典委
+  enabled: true
+  parser: chp_standard
+  extract:
+    tab: 中药配方颗粒
+- name: 北京局-通知
+  type: web
+  url: https://yjj.beijing.gov.cn/yjj/zwgk20/tz7/index.html
+  jurisdiction: 北京
+  enabled: false
+  parser: beijing_list
+- name: 北京局-公告
+  type: web
+  url: https://yjj.beijing.gov.cn/yjj/zwgk20/gg17/index.html
+  jurisdiction: 北京
+  enabled: false
+  parser: beijing_list
+- name: 四川局-工作通知
+  type: web
+  url: https://yjj.sc.gov.cn/scyjj/gztz/gztz.shtml
+  jurisdiction: 四川
+  enabled: false
+  parser: sichuan_list
+- name: 四川局-政策法规
+  type: web
+  url: https://yjj.sc.gov.cn/scyjj/c103190/zcfgflfg.shtml
+  jurisdiction: 四川
+  enabled: false
+  parser: sichuan_list
+- name: 广东局-工作文件
+  type: web
+  url: https://mpa.gd.gov.cn/zwgk/gzwj/index.html
+  jurisdiction: 广东
+  enabled: false
+  parser: guangdong_list
+- name: 广东局-药品法规解读
+  type: web
+  url: https://mpa.gd.gov.cn/zwgk/zcfg/fgjd/yaopin/
+  jurisdiction: 广东
+  enabled: false
+  parser: guangdong_list
+- name: 广东局-通知公告
+  type: web
+  url: https://mpa.gd.gov.cn/xwdt/tzgg/index.html
+  jurisdiction: 广东
+  enabled: false
+  parser: guangdong_list
+- name: 江苏局-公告通告
+  type: web
+  url: https://da.jiangsu.gov.cn/col/col84627/index.html
+  jurisdiction: 江苏
+  enabled: false
+  parser: jiangsu_list
+- name: 江苏局-工作文件
+  type: web
+  url: https://da.jiangsu.gov.cn/col/col84617/index.html
+  jurisdiction: 江苏
+  enabled: false
+  parser: jiangsu_list
+- name: 江苏局-规范性文件
+  type: web
+  url: https://da.jiangsu.gov.cn/col/col84620/index.html
+  jurisdiction: 江苏
+  enabled: false
+  parser: jiangsu_list
 - name: JSCDI-药品类政策法规
   type: web
   url: http://www.jscdi.org.cn/hczx/web/column/ypl/1.html
   jurisdiction: 江苏
-  enabled: true
+  enabled: false
   parser: jscdi_list
 - name: FDA-Guidance-Snapshot
   enabled: true
